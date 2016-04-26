@@ -9,7 +9,7 @@ module.exports = function register(grunt) {
         grunt.log.ok('processed ' + this.filesSrc.length + ' file' + (this.filesSrc.length > 1 ? 's' : ''));
         return exitCode === 0;
       } catch (e) {
-        grunt.log.error('Error: ' + e + ' ' + e.stack;
+        grunt.log.error('Error: ' + e + ' ' + e.stack);
       }
     });
     grunt.registerTask('react-templates', function() {
